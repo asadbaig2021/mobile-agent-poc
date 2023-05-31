@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 IPSecAdapter ipsec = new IPSecAdapter(51820, "wg0", "100.64.0.2/32",
-                        "+DQBTkEsbERjN9CDWvRzV/IFO3SAleMamtafK7jVHHk=", "", 1400);
+                        "eNZoTDmGwCDXb1FwIF6ZF1c/AEUcIDVC", 1400);
                 client = new Client("", "ipsec", ipsec);
                 try {
                     System.out.println("start");
